@@ -1,0 +1,10 @@
+{
+	"id": "telegram",
+	"version": "1.0",
+	"description": "Unofficial Telegram Module for UliCMS",
+	"categories": [
+		"telegram",
+		"social-media"
+	],
+	"compatible_from": "2019.3.1"
+}
