@@ -19,16 +19,6 @@ if (Request::getVar("error")) {
         ?>
         <?php translate("telegram_publish_articles_and_images") ?></label>
 </div>
-
-<?php if (isModuleInstalled("blog")) { ?>
-    <div class="checkbox voffset3">
-        <label><?php
-            echo UliCMS\HTML\Input::CheckBox("publish_blog_posts", boolval(Settings::get("telegram/publish_blog_posts")), "1",
-                    array("class" => "js-switch"));
-            ?>
-            <?php translate("telegram_publish_blog_posts") ?></label>
-    </div>
-<?php } ?>
 <hr/>
 <div class="form-group">
     <label for="text"><?php translate("telegram_channel_name"); ?></label>
